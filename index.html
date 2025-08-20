@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="shortcut icon" href="./assets/youtube.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="https://youtube.com">
+        <img src="./assets/logo.png" alt="YouTube logo" class="youtube-logo"
+      /></a>
+
+      <form
+        class="search-bar"
+        action="https://www.youtube.com/results?search_query="
+      >
+        <input
+          type="search"
+          class="search-input"
+          placeholder="Search"
+          aria-label="Search"
+          name="search_query"
+        />
+        <button type="submit" class="search-btn">
+          <img src="./assets/magnify.svg" alt="search-btn" />
+        </button>
+      </form>
+      <div class="menu-icons">
+        <a href="#">
+          <img src="./assets/video-plus.svg" alt="Upload video" />
+        </a>
+        <a href="#">
+          <img src="./assets/apps.svg" alt="Apps" />
+        </a>
+        <a href="#"> <img src="./assets/bell.svg" alt="Notifications" /> </a>
+        <a href="#">
+          <img
+            class="menu-channel-icon"
+            src="./assets/youtube.png"
+            alt="your channel"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="categories">
+      <section class="category-section">
+        <button class="category active">All</button>
+        <button class="category">Music</button>
+        <button class="category">Film</button>
+        <button class="category">Lo-fi</button>
+        <button class="category">Animation</button>
+        <button class="category">News</button>
+        <button class="category">Comedy</button>
+        <button class="category">Naat</button>
+        <button class="category">Dance</button>
+        <button class="category">Live</button>
+        <button class="category">Shows</button>
+        <button class="category">Drama</button>
+        <button class="category">Gaming</button>
+      </section>
+    </div>
+    <div class="videos">
+      <section class="video-section">
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="video-section">
+        <h2 class="video-section-title">
+          Special Section
+          <button class="video-section-title-close">&times;</button>
+        </h2>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Channel Name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:30">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                src="http://unsplash.it/36/36?gravity=center"
+                class="channel-icon"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name"> Channel name </a>
+              <div class="video-metadata">
+                <span>12K views</span> •
+                <span>1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
